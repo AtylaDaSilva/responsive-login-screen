@@ -1,0 +1,41 @@
+:root {
+    --bg-gradient-1: #5c3080;
+    --bg-gradient-2: #469a97;
+    --login-form-bg-color: #fff;
+    --login-form-font-color: rgb(50, 50, 50);
+    --login-form-container-border-radius: 15px;
+    --login-img-container-border-radius: 10px;
+    --login-button-border-radius: 5px;
+    --login-button-bg: #469a97;
+    --login-button-bg-hover: #52b6b2;
+    --login-button-bg-active: #3fd6d1;
+    --login-form-input-border-radius: 5px;
+    --input-icon-size: 50px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.flex-centralize-items {
+    justify-content: center;
+    align-items: center;
+}
+
+.text-align-center {
+    text-align: center;
+}

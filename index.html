@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/globals.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Tela de Login Responsiva</title>
+</head>
+<body class="flex flex-centralize-items">
+    <main>
+        <div
+            id="login-form-container"
+            class="flex"
+        >
+            <div id="login-form-img-container"></div>
+            <form
+                id="login-form"
+                class="text-align-center"
+            >
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a). Faça login para acessar sua conta e configurar seu ambiente.</p>
+                <div class="flex login-form-input-container">
+                    <span id="email-input-icon"></span>
+                    <input
+                        id="login-form-email-input"
+                        class="flex-grow-1"
+                        type="email"
+                        placeholder="Email"
+                        required
+                    >
+                </div>
+                <div class="flex login-form-input-container">
+                    <span id="password-input-icon"></span>
+                    <input
+                        id="login-form-password-input"
+                        class="flex-grow-1"
+                        type="password"
+                        placeholder="Senha"
+                        required
+                    >
+                </div>
+                <button
+                    id="login-form-submit-button"
+                    class="login-form-button"
+                >
+                    Entrar
+                </button>
+                <div
+                    role="button"
+                    class="login-form-button flex flex-centralize-items"
+                >
+                    Esqueci a Senha<span></span>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
